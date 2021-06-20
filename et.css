@@ -4,7 +4,7 @@
 	}
 	.bg{
 		position: absolute;
-		background:url(bg.png) no-repeat;
+		background:url(https://cdn.jsdelivr.net/gh/AzureHanChen/EasyTab-Web/bg.png) no-repeat;
 		background-size: 100% 100%;
 		top:0;
 		height:100%;
@@ -65,7 +65,7 @@
 	}
 	@font-face{
     font-family: "Zpix";
-    src:url('Zpix.ttf') format('truetype');
+    src:url('https://cdn.jsdelivr.net/gh/AzureHanChen/EasyTab-Web/Zpix.ttf') format('truetype');
     font-weight: normal;
     font-style: normal ;
 }
@@ -170,7 +170,6 @@
 		flex-direction: column;
     }
     .dw-button{
-    /* 相对定位 */
     position: relative;
     width: 200px;
     height: 50px;
@@ -178,14 +177,10 @@
     text-shadow: 0px 0.3vw 0.6vw rgba(255,255,255,0.363);
     text-align: center;
     text-decoration: none;
-    /*text-transform: uppercase;*/
     font-size: 24px;
     color: #fff;
-    /* 圆角属性 */
     border-radius: 80px;
-    /* 背景渐变色 */
     background-color: black;
-    /* 背景渐变色大小 */
     background-size: 400%;
     z-index: 1;
     }
@@ -193,4 +188,7 @@
     .dw1{
     	align-items: left;
     	display: flex;
+    }
+    .afadian{
+    	display: inline;
     }
