@@ -72,16 +72,16 @@
 
 .bt {
     position: relative;
-    width: 240px;
-    height: 80px;
-    line-height: 80px;
+    width: 3vw;
+    height: 1vw;
+    line-height: 1vw;
     text-align: center;
 	text-shadow: 0px 0.3vw 0.6vw rgba(0,0,0,0.363);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 2vw;
     color: #fff;
-    border-radius: 80px;
+    border-radius: 1vw;
     background-color:goldenrod;
     background-size: 400%;
     z-index: 1;
@@ -94,16 +94,16 @@
     bottom: -5px;
     left: -5px;
     right: -5px;
-    border-radius: 50px;
+    border-radius: 0.75vw;
     background-color:goldenrod;
     background-size: 400%;
     z-index: -1;
-    filter: blur(15px);
+    filter: blur(0.2vw);
 }
 
 	.social-network{
 		color: rgb(255, 255, 255);
-		margin: 28px;
+		margin: 0.35vw;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -154,9 +154,9 @@
         width: 30%; 
         height: 30%; 
         padding: 20px; 
-        border-radius: 15px;
-        line-height: 15px;
-        border: 10px solid #73AD21; 
+        border-radius: 0.1vw;
+        line-height: 0.1vw;
+        border: 0.08vw solid #73AD21; 
         background-color: rgb(255, 255, 255); 
         z-index:1002; 
         overflow: hidden; 
@@ -171,15 +171,15 @@
     }
     .dw-button{
     position: relative;
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
+    width: 1.5vw;
+    height: 0.5vw;
+    line-height: 0.5vw;
     text-shadow: 0px 0.3vw 0.6vw rgba(255,255,255,0.363);
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 0.25vw;
     color: #fff;
-    border-radius: 80px;
+    border-radius: 0.5vw;
     background-color: black;
     background-size: 400%;
     z-index: 1;
